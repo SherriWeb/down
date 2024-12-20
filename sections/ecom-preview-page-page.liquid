@@ -1,0 +1,71 @@
+{% comment %}
+ EComposer (https://ecomposer.io)
+ You SHOULD NOT modify source code in this page because
+ It is automatically generated from EComposer
+ At 2024-06-10 23:03:37
+ {% endcomment %} 
+ 
+ {% assign ecom_root_url = routes.root_url %}
+ {% if ecom_root_url != '/'%}
+ {% assign ecom_root_url = routes.root_url | append: '/' %}
+ {% endif %}
+ <link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.6" /><noscript><link rel="stylesheet" media="all" id="ecom-vendors-css_ecomposer_base" href="https://cdn.ecomposer.app/vendors/css/ecom-base.css?v=1.6" /></noscript>
+{%- assign headless = true -%}{%- render "ecom_theme_helper" -%}{%capture section_id %}ecom-preview-page-page{% endcapture%}{% if section and section_id == section.id and headless == true %}
+{{ content_for_header }}
+{% render 'ecom_header', ECOM_THEME: true %}{% endif %}<link href="https://fonts.googleapis.com/css?family=Outfit:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet"/>
+{{'ecom-preview-template-page.css' | asset_url | stylesheet_tag }}
+<script src="{{'ecom-preview-template-page.js' | asset_url }}" defer="defer"></script>
+<script type="text/javascript" class="ecom-page-info">
+ window.EComposer = window.EComposer || {};
+ window.EComposer.TEMPLATE_ID="preview-template-page";
+ window.EComposer.PAGE = {"template_id":"preview-template-page","title":"\u0645\u0634\u0649\u064a\u0647\u0649\u0644","type":"page","slug":"ecom-preview-page","plan_id":1};
+ </script>
+<div class="ecom-builder" id="ecom-preview-page"><div class="ecom-sections" data-section-id="{{section.id}}"><section class="ecom-row ecom-core ecom-section ecom-30fikoaneo6" data-id="ecom-30fikoaneo6" style="z-index: inherit;"><div data-deep="1" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-gwevkjoic7k"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-ipymipbsbzg" data-core-is="row"><div class="ecom-row ecom-core core__block ecom-eycqkplbdjq" data-id="ecom-eycqkplbdjq" style="z-index: inherit;"><div data-deep="2" class="core__row--columns"><div class="ecom-column ecom-core core__column--first ecom-4mwamdlcbnj"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"><div class="core__blocks--body"><div class="ecom-block ecom-core core__block elmspace ecom-5zprt8m77di" data-core-is="block"><div class="ecom-element ecom-shopify-elements ecom__form" deep="2"><div class="ecom__form-wrapper"><div class="ecom__form-container">{%- comment-%}<form id="ecom-contact-form-ecom-5zprt8m77di" class="ecom__form">{%- endcomment -%}{% form 'contact', class: 'ecom-contact-form', id: 'ecom-contact-form-ecom-5zprt8m77di', data-ec-tracking-id: 'undefined' %}<div class="ecom__form-fields"><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[fisrt-name]" class="ecom__form-field-label"><span>اسم العائلة</span></label><input type="text" name="contact[fisrt-name]" class="ecom__form--input ecom__form-text" id="ecom-contact-fisrt-name-0" placeholder="Fisrt name"></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[last-name]" class="ecom__form-field-label"><span>الاسم</span><span class="ecom__form-field-required">* </span></label><input type="text" name="contact[last-name]" class="ecom__form--input ecom__form-text" required="" id="ecom-contact-last-name-1" placeholder="Last name"></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[email]" class="ecom__form-field-label"><span>ُةشهم</span><span class="ecom__form-field-required">* </span></label><input type="email" name="contact[email]" class="ecom__form--input ecom__form-email" required="" id="ecom-contact-email-2" placeholder="Email"></div><div class="ecom__form-field ecom-html" style="width: calc(50% - 10px);"><label for="contact[undefined]" class="ecom__form-field-label"><span>رقم الهاتف</span></label><input type="text" name="contact[undefined]" class="ecom__form--input ecom__form-text" id="ecom-contact-undefined-3" placeholder="Phone number"></div><div class="ecom__form-field ecom-html" style="width: 100%;"><label for="contact[looking-for]" class="ecom__form-field-label"><span>عنوانك</span></label><select name="contact[looking-for]" class="ecom__form-select" id="ecom-contact-looking-for-4"><option value="دبى">دبى</option><option value="الشارقة">الشارقة</option><option value="عجمان">عجمان</option></select></div><div class="ecom__form-field ecom-html" style="width: 100%;"><label for="contact[عروض التوفير]" class="ecom__form-field-label"><span>العررض</span></label><select name="contact[عروض التوفير]" class="ecom__form-select" id="ecom-contact-عروض التوفير-5"><option value="عرض الاول">عرض الاول</option><option value="العرض الثانى">العرض الثانى</option><option value="العرض الثالت">العرض الثالت</option></select><div class="ecom__form-field-decription">عرض خاص لفترة محدده*</div></div></div><div class="ecom__form-action"><button type="submit" class="ecom__form-button"><span class="ecom_form-submit--icon"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg></span><span class="ecom_form-submit--text">اطلب الان</span></button></div><div>
+ {%- if form.posted_successfully? or EComBuilderMode == true -%}
+ <div class="ecom__form-success" {% unless EComBuilderMode %}tabindex="-1" autofocus{% endunless%}>
+ Successfully message
+ </div>
+ {% endif %}
+ {%- if form.errors or EComBuilderMode == true -%}
+ <div class="ecom__form-message">
+ <h2 class="ecom__form-status" role="alert" {% unless EComBuilderMode %}tabindex="-1" autofocus{% endunless%}>
+ Oops!. An error has occured
+ </h2>
+ </div>
+ <ul class="ecom__form-status-list" role="list">
+ {% for field in form.errors %}
+ <li class="ecom__form-status-error">
+ {% if field == 'form' %}
+ {{ form.errors.messages[field] }}
+ {% else %}
+ {{ form.errors.translated_fields[field] }} - {{ form.errors.messages[field] }}
+ {% endif %}
+ </li>
+ {% endfor %}
+ {% if EComBuilderMode %}
+ <li class="ecom__form-status-error">
+ This is sample text when email invalid
+ </li>
+ {% endif %}
+ </ul>
+ {%- endif -%}
+ </div>{% endform %}{%- comment-%}</form>{%- endcomment-%}</div></div></div></div> </div></div></div></div> <div class="ecom-column ecom-core core__column--last ecom-lymfxl8lwa"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="1"></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> <div class="ecom-block ecom-core core__block elmspace ecom-yg2b8tecbpf" data-core-is="row"><div class="ecom-row ecom-core core__block ecom-io492zziun" data-id="ecom-io492zziun" style="z-index: inherit;"><div data-deep="2" class="core__row--columns"><div class="ecom-column ecom-core core__column--first core__column--last ecom-snrhunguy6"><div class="core__column--wrapper"><div class="ecom-column__overlay"><div class="ecom-overlay"></div></div><div class="core__blocks" index="0"></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </div></div> </div></div></div></div> </div><div class="ecom-section__overlay"><div class="ecom-overlay"></div></div> </section>
+</div></div>
+{% schema %}
+{
+ "name": "\u0645\u0634\u0649\u064a\u0647\u0649\u0644",
+ "locales": {},
+ "settings": [
+ {
+ "type": "header",
+ "content": "The section was generated by [Ecomposer](https:\/\/ecomposer.io).",
+ "info": "\n EComposer is a Visual Page Builder app on Shopify AppStore.\n It provides 100+ pre-built templates in library,\n so you can build unlimited pages that you can imagine with it.\n Please don't add Shopify sections to EComposer's page in the theme customize. If you do this, Shopify sections will be deleted when you republish your page in EComposer\n "
+ },
+ {
+ "type": "header",
+ "content": "[EDIT WITH EComposer APP \u2192](https:\/\/ecomposer.app\/shop?open_builder=1&page=page&id=preview-template-page&utm_source=theme-customize)",
+ "info": "(*You must install the app to start editing this section [Learn more](https:\/\/help.ecomposer.io\/docs\/getting-started\/installation\/))"
+ }
+ ]
+}
+{% endschema %}
